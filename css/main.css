@@ -828,3 +828,190 @@ a:hover {
   	visibility: visible;
 }
 }
+/*--------Day 6 starts here---------*/
+
+#six .content {
+		background: #F7C3C2 url("../images/paper.png") left top;;
+	padding: 5rem 0 8rem 0;
+}
+#six .businesscard {
+	background: white url("../images/duck.png") right top;
+	background-size: 35%;
+    background-repeat: no-repeat;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	border-radius: 2px;
+	padding-left: 5px;
+	margin-top: 20px;
+}
+#six .firstfont{
+font-family: 'Inconsolata', monospace;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: 5px;
+}
+#six hr {
+	border-width: 1px;
+	border-style: solid;
+	margin-left: 0;
+}
+#six .line1 {
+	border-color: #151515;
+	position: absolute;
+	top: -10px;
+	left:-200px;
+	width: 70px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line2 {
+	border-color: #151515;
+	position: absolute;
+	top: 50px;
+	left:-170px;
+	width: 50px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line3 {
+	border-color: #151515;
+	position: absolute;
+	top: 10px;
+	left:-70px;
+	width: 10px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line4 {
+	border-color: #151515;
+	position: absolute;
+	top: 120px;
+	left:-180px;
+	width: 30px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line5 {
+	border-color: #151515;
+	position: absolute;
+	top: 50px;
+	left:-100px;
+	width: 150px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line6 {
+	border-color: #151515;
+	position: absolute;
+	top: 110px;
+	left:-50px;
+	width: 30px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line7 {
+	border-color: #151515;
+	position: absolute;
+	top: 170px;
+	left:80px;
+	width: 100px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line8 {
+	border-color: #151515;
+	position: absolute;
+	top: -10px;
+	left:200px;
+	width: 200px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line9 {
+	border-color: #151515;
+	position: absolute;
+	top: 180px;
+	left:-250px;
+	width: 150px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line10 {
+	border-color: #151515;
+	position: absolute;
+	top: 250px;
+	left:-180px;
+	width: 30px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line11 {
+	border-color: #151515;
+	position: absolute;
+	top: 180px;
+	left:-100px;
+	width: 150px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .line12 {
+	border-color: #151515;
+	position: absolute;
+	top: 300px;
+	left:-100px;
+	width: 150px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+#six .row{
+	overflow: visible;
+
+}
+#six .first{
+	margin-top:0px; 
+}
+#six span{
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	font-weight:bold; 
+}
+@media only screen and (min-width : 768px) {
+	#six .businesscard {
+	width: 400px;
+	height: 300px;
+	left:20%;
+	margin-top: -350px;
+	}
+	#six .first{
+	margin-top:50px; 
+	}
+
+}
+@media only screen and (min-width : 950px) {
+	#six .businesscard {
+	width: 500px;
+	height: 300px;
+	left:20%;
+	margin-top: -250px;
+	}
+	#six .first{
+	margin-top:70px; 
+	}
+
+}
+
+
