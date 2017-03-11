@@ -1,0 +1,830 @@
+
+.container-fluid {
+	padding: 0;
+	overflow: hidden;
+
+}
+.row {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+.day {
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 2px;
+	border: 2px solid #151515;
+	width: 30px;
+	padding: 3px 0 3px 3px;
+	display: inline-block;
+	color: #151515;
+}
+.legend {
+	font-family: Montserrat, sans-serif;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+}
+a {
+	color: orangered;
+}
+
+a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+/*--------Day 1 starts here---------*/
+
+#one .content {
+	background-color: yellow;
+	padding: 5rem 0 8rem 0;
+}
+
+#one .firstfont {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.7em;
+	line-height: 1.15em;
+	color: black;
+	overflow: hidden;
+
+} 
+#one .secondfont {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.8em;
+	font-weight: 400;
+	margin: auto;
+	line-height: 1.15em;
+	color: black;
+}
+
+#one .firstline {
+	padding-top: 3rem;
+
+} 
+
+@media only screen and (min-width : 460px) {
+#one .firstfont {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.15em;
+	color: black;
+	overflow: hidden;
+
+} 
+#one .secondfont {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	margin: auto;
+	line-height: 1.15em;
+	color: black;
+}
+}
+#one .legend {
+	margin: 40rem 0 0 0;
+}
+/*--------Day 2 starts here---------*/
+
+#two .content {
+	background-color: #F5C6CC;
+	padding: 5rem 0 8rem 0;
+}
+#two .wrapper{
+	position:relative;
+}
+
+#two .firstfont {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 10em;
+	line-height: 0.9em;
+	color: black;
+	overflow: hidden;
+	padding-top: 20px;
+
+} 
+
+#two .secondfont {
+	position:absolute;
+	top: 200px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 15px;
+	font-size: 2em;
+	line-height: 1.75em;
+	color: white;
+
+} 
+#two .leftpart {
+	position:absolute;
+	top: 200px;
+	left: -4px;
+	right: 0;
+
+	color:#FF0000;
+
+}
+#two .rightpart {
+	position:absolute;
+	top: 200px;
+	left: 4px;
+	right: 0;
+
+	color:#1AFFDB;
+
+}
+
+/*--------Day 3------*/
+#three .content {
+	background-color: #F9F6E7;
+	padding: 5rem 0 8rem 0;
+}
+
+#three .row {
+	width: 95%;
+	margin: 20px auto;
+}
+
+#three .selection {
+	position: relative;
+	width: 300px;
+	margin: 75px auto;
+}
+#three .curry {
+	font-family: 'Sansita', sans-serif;
+	font-size: .75em;
+	color: #151515;
+	letter-spacing: 7px;
+	line-height: 3em;
+	font-weight: bold;
+
+}
+#three .first .firstfont{
+	color:#FFF056;
+}
+#three .second .firstfont{
+	color:#FFAB1E;
+}
+#three .third .firstfont{
+	color:#A6630F;
+}
+
+
+
+#three .firstfont {
+	font-family: 'Karla', sans-serif;
+	font-weight: 800;
+	font-size: 4em;
+	color: #FFD80E;
+	letter-spacing: 10px;
+}
+
+#three .secondfont {
+	font-family: 'Sansita', sans-serif;
+	font-size: 2em;
+	color: #151515;
+}
+
+#three .step {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+
+#three .selection {
+	position: relative;
+	width: 500px;
+	margin: 75px auto;
+}
+
+#three .first {
+	margin-left: 10%;
+
+}
+#three .second {
+	margin-left: 50%;
+}
+#three .third {
+	margin-left: 10%;
+}
+
+
+#three .firstfont {
+	font-size: 8em;
+	letter-spacing: 10px;
+}
+
+#three .secondfont {
+	font-size: 2.5em;
+}
+
+#three .step {
+	position: absolute;
+	top: 70px;
+	left:30px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+/*------End Responsive styling--------*/
+
+/*--------Day 43------*/
+
+#four .content {
+	background-color: #eaece9;
+	padding: 5rem 0 8rem 0;
+	overflow: hidden;
+	position: relative;
+}
+#four .day {
+	position: relative;
+	z-index: 2;
+}
+#four .content:before { 
+  content: '';
+  position: absolute;
+  left: -20%;
+  width: 200%; 
+  height: 140%; 
+  background-color: rgb(255, 255, 255); /* fallback */
+  background-color: rgba(255, 255, 255, 0.5);
+  top: -500px;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+#four .businesscard {
+	width: 300px;
+	height: 200px;
+	background-color: #ffffff;
+	margin: auto;
+	border-radius: 2px;
+	padding-left: 5px;
+	margin-bottom: 50px;
+	padding-top:20px;
+}
+
+#four .firstfont {
+	position: relative;
+	z-index: 2;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #151515;
+	letter-spacing: 3px;
+	font-size: 1.25em;
+	line-height: 2.4em; 
+	padding-top: 15px;
+	margin: auto auto 25px auto;
+/*border-radius: 10px;*/
+
+}
+
+#four .secondfont {
+	position: relative;
+	z-index: 2;
+	font-family: 'Hind', sans-serif;
+	color: #151515;
+	letter-spacing: 8px;
+	font-size: 1em;
+	line-height: 3.8em;
+}
+#four .line1{
+	border-top: 2px solid #151515;
+
+}
+#four .line3{
+	border-bottom: 2px solid #151515;
+}
+
+
+#four .line2 span{
+	color:white;
+	letter-spacing: 7px;
+}
+#four .line3 span{
+	color:white;
+	letter-spacing: 7.5px;
+}
+
+
+/*-----Media Query------*/
+@media only screen and (min-width : 600px) {
+#four .content:before { 
+  content: '';
+  position: absolute;
+  left: -20%;
+  width: 200%; 
+  height: 150%; 
+  background-color: rgb(255, 255, 255); /* fallback */
+  background-color: rgba(255, 255, 255, 0.5);
+  top: -500px;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+#four .businesscard {
+	width: 500px;
+	height: 300px;
+	background-color: #ffffff;
+	margin: auto;
+	border-radius: 2px;
+	padding-left: 5px;
+	margin-bottom: 50px;
+	padding-top:20px;
+}
+
+#four .firstfont {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #151515;
+	letter-spacing: 3px;
+	font-size: 1.25em;
+	line-height: 2.4em; 
+	padding-bottom: 15px;
+	margin: auto auto 25px auto;
+/*border-radius: 10px;*/
+
+}
+#four .secondfont {
+	position: relative;
+	z-index: 2;
+	font-family: 'Hind', sans-serif;
+	color: #151515;
+	letter-spacing: 15px;
+	font-size: 1.5em;
+	line-height: 4em;
+}
+
+
+#four .line2 span{
+	color:white;
+	letter-spacing: 13px;
+}
+#four .line3 span{
+	color:white;
+	letter-spacing: 14.1px;
+}
+	}
+
+#four .legend {
+	position: relative;
+	z-index: 2;
+}
+/*--------Day 5 starts here---------*/
+
+#five .content {
+	position: relative;
+	z-index: -2;
+	background-color: mintcream;
+	padding: 5rem 0 8rem 0;
+}
+#five .wrapper{
+	position:relative;
+}
+#five .businesscard {
+	position: :relative;
+	z-index: 10000;
+	width: 300px;
+	height: 200px;
+	background-color: mintcream;
+	margin: auto;
+	border-radius: 2px;
+	padding-left: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow:hidden;
+	box-shadow: 5px 8px 5px 8px rgba(15, 15, 15, .075);
+}
+#five hr {
+	border-width: 10px;
+	border-style: solid;
+	margin-left: 0;
+}
+#five .firstfont {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	line-height: 0.9em;
+	color: black;
+	overflow: hidden;
+	padding-top: 20px;
+
+} 
+
+#five .secondfont {
+
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	letter-spacing: 15px;
+	font-size: 1.5em;
+	line-height: 1.75em;
+	color: #151515;
+	position: relative;
+	z-index: 1;
+	margin-top: -80px;
+
+}
+#five .outer{
+	position: relative;
+	top:300px;
+	left:100px;
+	z-index: -2;
+	margin-top: -50px;
+	visibility: hidden;
+
+}
+
+#five .secondfont span{
+	background-color: orangered;
+}
+#five .line13{
+	border-color: #151515;
+	position: relative;
+	top: 40px;
+	left:-5%;
+	width: 50px;
+	-webkit-transform: rotate(30deg);
+  	-moz-transform: rotate(30deg);
+  	transform: rotate(30deg);
+}
+#five .line14 {
+	border-color: orangered;
+	position: relative;
+	top: 0px;
+	left:5%;
+	width: 60px;
+	-webkit-transform: rotate(-20deg);
+  	-moz-transform: rotate(-20deg);
+  	transform: rotate(-20deg);
+}
+#five .line15 {
+	border-color: #151515;
+	position: relative;
+	top: 20px;
+	left:80%;
+	width: 70px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+}
+#five .line16{
+	border-color: orangered;
+	position: relative;
+	top: 100px;
+	left:80%;
+	width: 70px;
+
+}
+#five .line1{
+	border-color: #151515;
+	position: absolute;
+	z-index: -1;
+	top: -15px;
+	width: 50px;
+	-webkit-transform: rotate(30deg);
+  	-moz-transform: rotate(30deg);
+  	transform: rotate(30deg);
+}
+
+#five .line2 {
+	border-color: orangered;
+	position: absolute;
+	z-index: -1;
+	top: -10px;
+	width: 90px;
+	-webkit-transform: rotate(-20deg);
+  	-moz-transform: rotate(-20deg);
+  	transform: rotate(-20deg);
+}
+#five .line3{
+	border-color: #151515;
+	position: absolute;
+	top: 180px;
+	left:17%;
+	width: 100px;
+	-webkit-transform: rotate(20deg);
+  	-moz-transform: rotate(20deg);
+  	transform: rotate(20deg);
+}
+
+#five .line4 {
+	border-color: orangered;
+	position: absolute;
+	z-index: -1;
+	top: 150px;
+	left:22%;
+	width: 150px;
+	-webkit-transform: rotate(-50deg);
+  	-moz-transform: rotate(-50deg);
+  	transform: rotate(-50deg);
+}
+
+#five .line5{
+	border-color: #151515;
+	position: absolute;
+		z-index: -1;
+	top: 50px;
+	left:60%;
+	width: 200px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+
+#five .line6{
+	border-color: orangered;
+	position: absolute;
+		z-index: -1;
+	top: 100px;
+	left:55%;
+	width: 250px;
+	-webkit-transform: rotate(20deg);
+  	-moz-transform: rotate(20deg);
+  	transform: rotate(20deg);
+}
+#five .line7{
+		border-color: orangered;
+	position: absolute;
+	top: 400px;
+	width: 170px;
+	-webkit-transform: rotate(35deg);
+  	-moz-transform: rotate(35deg);
+  	transform: rotate(35deg);
+	visibility: hidden;
+}
+
+#five .line8 {
+	border-color: #151515;
+	position: absolute;
+	top: 400px;
+	left:15%;
+	width: 30px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+}
+
+#five .line9{
+	border-color: orangered;
+	position: absolute;
+	top: 400px;
+	left:65%;
+	width: 170px;
+		z-index: -1;
+	-webkit-transform: rotate(35deg);
+  	-moz-transform: rotate(35deg);
+  	transform: rotate(35deg);
+}
+
+#five .line10 {
+	border-color: #151515;
+	position: absolute;
+	top: 400px;
+	left:70%;
+	width: 70px;
+}
+#five .line11{
+	border-color: orangered;
+	position: absolute;
+	top: 400px;
+	left:90%;
+	width: 170px;
+	visibility: hidden;
+
+}
+
+#five .line12 {
+	border-color: #151515;
+	position: absolute;
+	top: -15px;
+	left:90%;
+	width: 70px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+  	visibility: hidden;
+}
+
+/*-----Media Query------*/
+@media only screen and (min-width : 600px) {
+#five .businesscard {
+	width: 500px;
+	height: 300px;
+}
+
+#five .firstfont {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	line-height: 0.9em;
+	color: black;
+	overflow: hidden;
+	padding-top: 20px;
+
+} 
+
+#five .secondfont {
+
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	letter-spacing: 15px;
+	font-size: 2em;
+	line-height: 1.75em;
+	color: #151515;
+	position: relative;
+	left:20px;
+	z-index: 1;
+	margin-top: -50px;
+
+}
+#five .outer{
+	font-size: 3em;
+	left:200px;
+	z-index: -1;
+	visibility: visible;
+
+}
+
+#five .secondfont span{
+	background-color: orangered;
+}
+
+#five hr {
+	border-width: 10px;
+	border-style: solid;
+	margin-left: 0;
+}
+#five .line13{
+	border-color: #151515;
+	position: relative;
+	top: 50px;
+	left:-5%;
+	width: 80px;
+	-webkit-transform: rotate(30deg);
+  	-moz-transform: rotate(30deg);
+  	transform: rotate(30deg);
+}
+#five .line14 {
+	border-color: orangered;
+	position: relative;
+	top: 10px;
+	left:5%;
+	width: 80px;
+	-webkit-transform: rotate(-20deg);
+  	-moz-transform: rotate(-20deg);
+  	transform: rotate(-20deg);
+}
+#five .line15 {
+	border-color: #151515;
+	position: relative;
+	top: 20px;
+	left:80%;
+	width: 70px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+}
+#five .line16{
+	border-color: orangered;
+	position: relative;
+	top: 100px;
+	left:80%;
+	width: 70px;
+
+}
+#five .line1{
+	border-color: #151515;
+	position: absolute;
+	top: -20px;
+	left:-5%;
+	width: 100px;
+	-webkit-transform: rotate(30deg);
+  	-moz-transform: rotate(30deg);
+  	transform: rotate(30deg);
+}
+
+#five .line2 {
+	border-color: orangered;
+	position: absolute;
+	top: -20px;
+	width: 80px;
+	-webkit-transform: rotate(-20deg);
+  	-moz-transform: rotate(-20deg);
+  	transform: rotate(-20deg);
+}
+#five .line3{
+	border-color: #151515;
+	position: absolute;
+	top: 180px;
+	left:17%;
+	width: 100px;
+	-webkit-transform: rotate(20deg);
+  	-moz-transform: rotate(20deg);
+  	transform: rotate(20deg);
+}
+
+#five .line4 {
+	border-color: orangered;
+	position: absolute;
+	z-index: -1;
+	top: 150px;
+	left:22%;
+	width: 150px;
+	-webkit-transform: rotate(-50deg);
+  	-moz-transform: rotate(-50deg);
+  	transform: rotate(-50deg);
+}
+
+#five .line5{
+	border-color: #151515;
+	position: absolute;
+		z-index: -1;
+	top: 50px;
+	left:60%;
+	width: 200px;
+	-webkit-transform: rotate(-30deg);
+  	-moz-transform: rotate(-30deg);
+  	transform: rotate(-30deg);
+}
+
+#five .line6{
+	border-color: orangered;
+	position: absolute;
+		z-index: -1;
+	top: 100px;
+	left:55%;
+	width: 250px;
+	-webkit-transform: rotate(20deg);
+  	-moz-transform: rotate(20deg);
+  	transform: rotate(20deg);
+}
+#five .line7{
+	visibility: visible;
+}
+
+#five .line8 {
+	border-color: #151515;
+	position: absolute;
+	top: 400px;
+	left:15%;
+	width: 30px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+}
+
+#five .line9{
+	border-color: orangered;
+	position: absolute;
+	top: 400px;
+	left:65%;
+	width: 170px;
+		z-index: -1;
+	-webkit-transform: rotate(35deg);
+  	-moz-transform: rotate(35deg);
+  	transform: rotate(35deg);
+}
+
+#five .line10 {
+	border-color: #151515;
+	position: absolute;
+	top: 400px;
+	left:70%;
+	width: 70px;
+}
+#five .line11{
+	border-color: orangered;
+	position: absolute;
+	top: 400px;
+	left:90%;
+	width: 170px;
+	visibility: visible;
+
+}
+
+#five .line12 {
+	border-color: #151515;
+	position: absolute;
+	top: -15px;
+	left:90%;
+	width: 70px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+  	visibility: visible;
+}
+}
