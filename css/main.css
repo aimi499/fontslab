@@ -1099,7 +1099,7 @@ font-family: 'Inconsolata', monospace;
 }
 #eight a:hover {
 	text-decoration: none;
-	color: slategrey;
+	color: orange;
 }
 @media only screen and (min-width : 600px) {
 #eight .firstfont{
