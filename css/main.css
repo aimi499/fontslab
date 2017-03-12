@@ -1102,12 +1102,6 @@ font-family: 'Inconsolata', monospace;
 	color: slategrey;
 }
 @media only screen and (min-width : 600px) {
-	#eight .content {
-	background-image: url("../images/mountain.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding: 5rem 0 8rem 0;
-}
 #eight .firstfont{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
