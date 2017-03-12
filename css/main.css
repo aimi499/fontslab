@@ -831,7 +831,7 @@ a:hover {
 /*--------Day 6 starts here---------*/
 
 #six .content {
-		background: #F7C3C2 url("../images/paper.png") left top;;
+		background: #F7C3C2 url("../images/paper.png") left top;
 	padding: 5rem 0 8rem 0;
 }
 #six .businesscard {
@@ -1061,5 +1061,78 @@ font-family: 'Inconsolata', monospace;
 	color: #00731B;
 	margin-top: 300px;
 }
-｝
+}
+/*--------Day 8 starts here---------*/
+#eight .content {
+	background-image: url("../images/mountain.png");
+	background-size: 100%;
+	padding: 5rem 0 8rem 0;
+}
+#eight .firstfont{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 1em;
+	color: white;
+	top:10px;
+}
+#eight .secondfont{
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 2em;
+	color: white;
+	top:30px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+}
+#eight .legend {
+	margin: 10rem 0 0 0;
+}
+#eight .row{
+	overflow: visible;
+
+}
+#eight a {
+	color: yellow;
+}
+#eight a:hover {
+	text-decoration: none;
+	color: slategrey;
+}
+@media only screen and (min-width : 600px) {
+	#eight .content {
+	background-image: url("../images/mountain.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 5rem 0 8rem 0;
+}
+#eight .firstfont{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: white;
+	top:200px;
+}
+#eight .secondfont{
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: white;
+	top:300px;
+	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	transform: rotate(90deg);
+}
+#eight .legend {
+	margin: 30rem 0 0 0;
+}
+#eight .row{
+	overflow: visible;
+
+}
+}
 
