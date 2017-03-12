@@ -1094,13 +1094,6 @@ font-family: 'Inconsolata', monospace;
 	overflow: visible;
 
 }
-#eight a {
-	color: yellow;
-}
-#eight a:hover {
-	text-decoration: none;
-	color: orange;
-}
 @media only screen and (min-width : 600px) {
 #eight .firstfont{
 	font-family: 'Montserrat', sans-serif;
