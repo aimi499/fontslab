@@ -25,7 +25,7 @@
 	font-size: .75em;
 	line-height: 2.5em;
 	margin: 10rem 0 0 0;
-	padding: 0 5rem 0 5rem;
+	padding: 3rem 5rem 0 5rem;
 	letter-spacing: 3px;
 }
 a {
@@ -1012,4 +1012,53 @@ font-family: 'Inconsolata', monospace;
 	}
 
 }
+/*--------Day 7 starts here---------*/
+#seven .content {
+	background-image: url("../images/flora.png");
+	padding: 5rem 0 8rem 0;
+	background-size: 120%;
+	background-position: center 50px;
+}
+#seven .firstfont{
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 3em;
+	color: black;
+	margin-top: -150px;
+}
+#seven .secondfont{
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 1em;
+	line-height: 3em;
+	color: #00731B;
+	margin-top: 100px;
+}
+#seven .row{
+	overflow: visible;
+
+}
+@media only screen and (min-width : 600px) {
+#seven .content {
+	background-image: url("../images/flora.png");
+	padding: 5rem 0 8rem 0;
+	background-size: 80%;
+	background-position: 600px 50px;
+}
+#seven .firstfont{
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 3em;
+	color: black;
+	margin-top: -300px;
+}
+#seven .secondfont{
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 2em;
+	line-height: 4em;
+	color: #00731B;
+	margin-top: 300px;
+}
+｝
 
