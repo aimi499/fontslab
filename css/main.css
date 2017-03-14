@@ -1088,7 +1088,7 @@ font-family: 'Inconsolata', monospace;
   	transform: rotate(90deg);
 }
 #eight .legend {
-	margin: 10rem 0 0 0;
+	margin: 15rem 0 0 0;
 }
 #eight .row{
 	overflow: visible;
@@ -1121,5 +1121,64 @@ font-family: 'Inconsolata', monospace;
 	overflow: visible;
 
 }
+}
+/*--------Day 9 starts here---------*/
+
+#nine .content {
+	background-color: #151515;
+	padding: 5rem 0 8rem 0;
+}
+
+#nine .firstfont {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.6em;
+	line-height: 1.3em;
+	color: white;
+	overflow: hidden;
+
+} 
+#nine .secondfont {
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.6em;
+	margin: auto;
+	line-height: 1.3em;
+	color: white;
+	letter-spacing: 0.1em;
+}
+
+#nine .firstline {
+	padding-top: 3rem;
+
+}
+#nine .day {
+	color: white;
+	border: 2px solid white;
+}
+
+@media only screen and (min-width : 460px) {
+#nine .firstfont {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: white;
+	overflow: hidden;
+
+} 
+#nine .secondfont {
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	margin: auto;
+	line-height: 1.5em;
+	color: white;
+	letter-spacing: 0.1em;
+}
+#nine .legend {
+	margin: 40rem 0 0 0;
+	color:white;
+}
+}
+#nine .legend {
+	margin: 10rem 0 0 0;
+	color:white;
 }
 
