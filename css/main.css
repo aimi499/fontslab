@@ -1181,4 +1181,278 @@ font-family: 'Inconsolata', monospace;
 	margin: 10rem 0 0 0;
 	color:white;
 }
+/*--------Day 10 starts here---------*/
+
+#ten .content {
+	background-color: #FFF9EB;
+	padding: 5rem 0 8rem 0;
+}
+
+#ten .firstfont {
+	font-family: 'Arvo', serif;
+	font-size: 0.8em;
+	overflow: hidden;
+	margin-left: 2px;
+	margin-bottom: 0;
+
+} 
+#ten .secondfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 0.2em;
+	line-height: 8px;
+	font-weight: 900;
+	margin-left: 6px;
+	margin-bottom: 0;
+}
+#ten .thirdfont {
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.2em;
+	line-height: 8px;
+	margin-left: 6px;
+	margin-top: -3px;
+	font-style: italic; 
+}
+
+#ten .firstline {
+	padding-top: 3rem;
+
+}
+#ten .legend {
+	margin: 0 0 0 0;
+}
+#ten .empty {
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_empty.png");
+	background-size: 100%;
+}
+#ten .r1c1 {
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_pink.png");
+	background-size: 100%;
+}
+#ten .r1c2{
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_green.png");
+	background-size: 100%;
+}
+#ten .r2c1{
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_blue.png");
+	background-size: 100%;
+}
+#ten .r3c1{
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_yellow.png");
+	background-size: 100%;
+}
+#ten .r6c1{
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_purple.png");
+	background-size: 100%;
+}
+#ten .r8c1{
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_orange.png");
+	background-size: 100%;
+}
+#ten .r7c2{
+	width: 30px;
+	height: 30px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 20px;
+	background-image:url("../images/element_greyblue.png");
+	background-size: 100%;
+}
+#ten .r3c2{
+	width: 32px;
+	height: 32px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: -5px;
+	margin-bottom: 23px;
+	background-image:url("../images/element_symbol.png");
+	background-size: 100%;
+	overflow: visible;
+}
+#ten .r3c2 .firstfont{
+		font-size: 0.5em;
+		line-height: 10px;
+}
+#ten .r3c2 .secondfont{
+		line-height: 10px;
+		font-size: 0.3em;
+
+}
+#ten .r3c2 .thirdfont{
+		line-height: 15px;
+		font-size: 0.2em;
+}
+#ten .row{
+	padding-top: 50px;
+	overflow: visible;
+
+}
+
+
+@media only screen and (min-width : 600px) {
+#ten .firstfont {
+	font-family: 'Arvo', serif;
+	font-size: 2.2em;
+	line-height: 40px;
+	overflow: hidden;
+	margin-bottom:0; 
+	margin-left: 8px;
+} 
+#ten .secondfont {
+	font-family: 'Francois One', sans-serif;
+	font-size: 0.6em;
+	margin: auto;
+	line-height: 16px;
+	font-weight: 900;
+	margin-left: 12px;
+}
+#ten .thirdfont {
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.6em;
+	margin: auto;
+	line-height: 16px;
+	margin-left: 12px;
+	font-style: italic; 
+}
+#ten .legend {
+	margin: 10rem 0 0 0;
+}
+#ten .empty {
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_empty.png");
+	background-size: 100%;
+}
+#ten .r1c1 {
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_pink.png");
+	background-size: 100%;
+}
+#ten .r1c2{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_green.png");
+	background-size: 100%;
+}
+#ten .r2c1{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_blue.png");
+	background-size: 100%;
+}
+#ten .r3c1{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_yellow.png");
+	background-size: 100%;
+}
+#ten .r6c1{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_purple.png");
+	background-size: 100%;
+}
+#ten .r8c1{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 10px;
+	background-image:url("../images/element_orange.png");
+	background-size: 100%;
+}
+#ten .r7c2{
+	width: 80px;
+	height: 80px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: 40px;
+	background-image:url("../images/element_greyblue.png");
+	background-size: 100%;
+}
+#ten .r3c2{
+	width: 100px;
+	height: 100px;
+	background-color: #FFF9EB;
+	margin: auto;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	background-image:url("../images/element_symbol.png");
+	background-size: 100%;
+}
+#ten .r3c2 .firstfont{
+		font-size: 1.7em;
+		line-height: 52px;
+}
+#ten .r3c2 .secondfont{
+		line-height: 20px;
+		font-size: 0.7em;
+		margin-left: 15px;
+
+}
+#ten .r3c2 .thirdfont{
+		line-height: 20px;
+		font-size: 0.7em;
+		margin-left: 15px;
+}
+#ten .row{
+	padding-top: 50px;
+	overflow: visible;
+
+}
+}
+
 
