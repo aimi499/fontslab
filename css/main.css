@@ -1454,5 +1454,91 @@ font-family: 'Inconsolata', monospace;
 
 }
 }
+/*--------Day 11 starts here---------*/
+
+#eleven .content {
+	background-color: #BDD6D3;
+	padding: 5rem 0 8rem 0;
+	overflow: hidden;
+}
+#eleven .row{
+	padding-top: 50px;
+	overflow: visible;
+
+}
+#eleven .firstfont {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em;
+	color: #34869E;
+	z-index: 1;
+	margin-top:-380px;
+
+} 
+#eleven .secondfont {
+	font-family: 'Arimo', sans-serif;
+	font-size: 12em;
+	margin: auto;
+	color: white;
+	height:200px;
+	overflow: hidden;
+}
+#eleven .start {
+	line-height: 2em;
+}
+#eleven .end {
+	line-height: 2.2em;
+	letter-spacing: 15px;
+}
+#eleven .day {
+	color: white;
+	border: 2px solid white;
+}
+#eleven .legend {
+	margin: 0 0 0 0;
+	color:white;
+}
+@media only screen and (min-width : 600px) {
+#eleven .content {
+	background-color: #BDD6D3;
+	padding: 5rem 0 8rem 0;
+	overflow: hidden;
+}
+#eleven .row{
+	padding-top: 50px;
+	overflow: visible;
+
+}
+#eleven .firstfont {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em;
+	color: #34869E;
+	z-index: 1;
+	margin-top:-360px;
+
+} 
+#eleven .secondfont {
+	font-family: 'Arimo', sans-serif;
+	font-size: 30em;
+	margin: auto;
+	color: white;
+	height:230px;
+	overflow: hidden;
+}
+#eleven .start {
+	line-height: 0.9em;
+}
+#eleven .end {
+	line-height: 0.9em;
+	letter-spacing: 40px;
+}
+#eleven .day {
+	color: white;
+	border: 2px solid white;
+}
+#eleven .legend {
+	margin: 0 0 0 0;
+	color:white;
+}
+}
 
 
