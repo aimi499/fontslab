@@ -1540,5 +1540,228 @@ font-family: 'Inconsolata', monospace;
 	color:white;
 }
 }
+/*--------Day 12 starts here---------*/
+#twelve .content {
+	background-color: #4CC5F2;
+	padding: 5rem 0 8rem 0;
+}
+#twelve hr { 
+    margin-top: 4.3em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-bottom: 1px dotted #4CC5F2;
+    background: black;
+    visibility: hidden;
+} 
+#twelve .frame1 {
+	width: 200px;
+	height: 30px;
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:30px;
+}
+#twelve .frame2 {
+	width: 200px;
+	height: 24px;
+	border-bottom: 8px solid black;
+	border-top: 8px solid black;
+	border-radius: 5px;
+	background-color: white;
+	margin-top:40px;
+}
+#twelve .frame3 {
+	width: 60px;
+	height: 30px;
+	margin: auto;
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:30px;
+}
+#twelve .frame4 {
+	width: 200px;
+	height: 30px;
+	margin: auto;
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+	border-radius: 10px;
+	background-color: #F2747E;
+	margin-top:30px;
+}
+#twelve .frame5 {
+	width: 200px;
+	height: 30px;
+	border-bottom: 10px solid #F6D531;
+	border-top: 10px solid #F6D531;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:30px;
+}
+#twelve .double-color {
+	display: block;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #B266DE;
+}
+#twelve .frame6 {
+	width: 300px;
+	height: 50px;
+	border-bottom: 15px solid black;
+	border-top: 15px solid black;
+	border-radius: 10px;
+	background-image: url("../images/birthday.png");
+	background-size: 110%;
+	background-repeat: no-repeat;
+	margin-top:30px;
+}
+
+#twelve .row{
+	overflow: visible;
+
+}
+#twelve .firstfont {
+	font-family: 'Muli', sans-serif;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: black;
+	padding-top: 40px;
+
+} 
+#twelve .secondfont {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 500;
+	font-size: 1em;
+	margin: auto;
+	color: black;
+	padding-top: 40px;
+}
+#twelve .day {
+	color: white;
+	border: 2px solid white;
+}
+#twelve .legend {
+	margin: 50px 0 0 0;
+	color:white;
+}
+@media only screen and (min-width : 600px) {
+#twelve .content {
+	background-color: #4CC5F2;
+	padding: 5rem 0 8rem 0;
+}
+#twelve hr { 
+    margin-top: 4.3em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-bottom: 1px dotted #4CC5F2;
+    background: black;
+    visibility: visible;
+} 
+#twelve .frame1 {
+	width: 300px;
+	height: 50px;
+	border-bottom: 15px solid black;
+	border-top: 15px solid black;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:30px;
+}
+#twelve .frame2 {
+	width: 300px;
+	height: 30px;
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:40px;
+}
+#twelve .frame3 {
+	width: 100px;
+	height: 50px;
+	margin: auto;
+	border-bottom: 15px solid black;
+	border-top: 15px solid black;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:30px;
+}
+#twelve .frame4 {
+	width: 300px;
+	height: 50px;
+	margin: auto;
+	border-bottom: 15px solid black;
+	border-top: 15px solid black;
+	border-radius: 10px;
+	background-color: #F2747E;
+	margin-top:30px;
+}
+#twelve .frame5 {
+	width: 300px;
+	height: 50px;
+	border-bottom: 15px solid #F6D531;
+	border-top: 15px solid #F6D531;
+	border-radius: 10px;
+	background-color: white;
+	margin-top:30px;
+}
+#twelve .double-color {
+	display: block;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: #B266DE;
+}
+#twelve .frame6 {
+	width: 300px;
+	height: 50px;
+	border-bottom: 15px solid black;
+	border-top: 15px solid black;
+	border-radius: 10px;
+	background-image: url("../images/birthday.png");
+	background-size: 110%;
+	background-repeat: no-repeat;
+	margin-top:30px;
+}
+
+#twelve .row{
+	overflow: visible;
+
+}
+#twelve .firstfont {
+	font-family: 'Muli', sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+	color: black;
+	padding-top: 40px;
+
+} 
+#twelve .secondfont {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 500;
+	font-size: 2em;
+	margin: auto;
+	color: black;
+	padding-top: 40px;
+}
+#twelve .day {
+	color: white;
+	border: 2px solid white;
+}
+#twelve .legend {
+	margin: 50px 0 0 0;
+	color:white;
+}
+}
+
+
 
 
