@@ -404,7 +404,7 @@ a:hover {
 	height: 200px;
 	background-color: mintcream;
 	margin: auto;
-	border-radius: 2px;
+	border-radius: 0px;
 	padding-left: 5px;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -1562,7 +1562,8 @@ font-family: 'Inconsolata', monospace;
 	border-top: 10px solid black;
 	border-radius: 10px;
 	background-color: white;
-	margin-top:30px;
+	margin-top:0;
+	margin-left: 100px;
 }
 #twelve .frame2 {
 	width: 200px;
@@ -1571,7 +1572,8 @@ font-family: 'Inconsolata', monospace;
 	border-top: 8px solid black;
 	border-radius: 5px;
 	background-color: white;
-	margin-top:40px;
+	margin-top:0;
+	margin-left: 100px;
 }
 #twelve .frame3 {
 	width: 60px;
@@ -1581,7 +1583,8 @@ font-family: 'Inconsolata', monospace;
 	border-top: 10px solid black;
 	border-radius: 10px;
 	background-color: white;
-	margin-top:30px;
+	margin-top:0;
+	margin-left: 100px;
 }
 #twelve .frame4 {
 	width: 200px;
@@ -1591,7 +1594,8 @@ font-family: 'Inconsolata', monospace;
 	border-top: 10px solid black;
 	border-radius: 10px;
 	background-color: #F2747E;
-	margin-top:30px;
+	margin-top:0;
+	margin-left: 100px;
 }
 #twelve .frame5 {
 	width: 200px;
@@ -1600,7 +1604,8 @@ font-family: 'Inconsolata', monospace;
 	border-top: 10px solid #F6D531;
 	border-radius: 10px;
 	background-color: white;
-	margin-top:30px;
+	margin-top:0;
+	margin-left: 100px;
 }
 #twelve .double-color {
 	display: block;
@@ -1619,7 +1624,8 @@ font-family: 'Inconsolata', monospace;
 	background-image: url("../images/birthday.png");
 	background-size: 110%;
 	background-repeat: no-repeat;
-	margin-top:30px;
+	margin-top:0;
+	margin-left: 100px;
 }
 
 #twelve .row{
@@ -1640,7 +1646,8 @@ font-family: 'Inconsolata', monospace;
 	font-size: 1em;
 	margin: auto;
 	color: black;
-	padding-top: 40px;
+	padding-top:20px;
+	padding-left: 40px;
 }
 #twelve .day {
 	color: white;
@@ -1673,6 +1680,7 @@ font-family: 'Inconsolata', monospace;
 	border-radius: 10px;
 	background-color: white;
 	margin-top:30px;
+	margin-left: 0;
 }
 #twelve .frame2 {
 	width: 300px;
@@ -1682,6 +1690,7 @@ font-family: 'Inconsolata', monospace;
 	border-radius: 10px;
 	background-color: white;
 	margin-top:40px;
+	margin-left: 0;
 }
 #twelve .frame3 {
 	width: 100px;
@@ -1692,6 +1701,7 @@ font-family: 'Inconsolata', monospace;
 	border-radius: 10px;
 	background-color: white;
 	margin-top:30px;
+	margin-left: 0;
 }
 #twelve .frame4 {
 	width: 300px;
@@ -1702,6 +1712,7 @@ font-family: 'Inconsolata', monospace;
 	border-radius: 10px;
 	background-color: #F2747E;
 	margin-top:30px;
+	margin-left: 0;
 }
 #twelve .frame5 {
 	width: 300px;
@@ -1711,6 +1722,7 @@ font-family: 'Inconsolata', monospace;
 	border-radius: 10px;
 	background-color: white;
 	margin-top:30px;
+	margin-left: 0;
 }
 #twelve .double-color {
 	display: block;
@@ -1719,6 +1731,7 @@ font-family: 'Inconsolata', monospace;
     width: 50%;
     height: 100%;
     background-color: #B266DE;
+ 	margin-left: 0;
 }
 #twelve .frame6 {
 	width: 300px;
@@ -1730,6 +1743,7 @@ font-family: 'Inconsolata', monospace;
 	background-size: 110%;
 	background-repeat: no-repeat;
 	margin-top:30px;
+	margin-left: 0;
 }
 
 #twelve .row{
@@ -1751,6 +1765,7 @@ font-family: 'Inconsolata', monospace;
 	margin: auto;
 	color: black;
 	padding-top: 40px;
+	padding-left: 0;
 }
 #twelve .day {
 	color: white;
@@ -1760,6 +1775,64 @@ font-family: 'Inconsolata', monospace;
 	margin: 50px 0 0 0;
 	color:white;
 }
+}
+
+/*--------Day 13 starts here---------*/
+#thirteen .content {
+	background-image: url("../images/ramen.png");
+	background-repeat: repeat;
+	background-color: #DFE0DB;
+	padding: 5rem 0 8rem 0;
+}
+#thirteen .row{
+	overflow: visible;
+
+}
+#thirteen .day {
+	color: black;
+	border: 2px solid black;
+}
+#thirteen .legend {
+	margin: 50px 0 0 0;
+	color:white;
+}
+#thirteen .rec{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#thirteen .circle{
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+	background: red; 
+	width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	position: relative;
+	margin-top:-90%;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+}
+#thirteen .firstfont {
+	font-family: 'Francois One', sans-serif;
+	font-weight: bolder;
+	font-size: 2.8em;
+	color: white;
+	padding-left: 15px;
+} 
+#thirteen .secondfont {
+	padding-top: 8px;
+	font-family: 'Acme', sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	color: white;
+	overflow: hidden;
 }
 
 
