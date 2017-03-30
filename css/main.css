@@ -1797,9 +1797,9 @@ font-family: 'Inconsolata', monospace;
 	color:white;
 }
 #thirteen .rec{
-	width: 500px;
-	height: 500px;
-	background-color: red;
+	width: 300px;
+	height: 300px;
+	background-color: orangered;
 	float: none;
     margin-left: auto;
     margin-right: auto;
@@ -1809,7 +1809,46 @@ font-family: 'Inconsolata', monospace;
 	float: none;
     margin-left: auto;
     margin-right: auto;
-	background: red; 
+	background: orangered; 
+	width: 200px; 
+	height: 200px; 
+	border-radius: 175px; 
+	position: relative;
+	margin-top:-90%;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+}
+#thirteen .firstfont {
+	font-family: 'Francois One', sans-serif;
+	font-weight: bolder;
+	font-size: 1.62em;
+	color: white;
+	padding-left: 15px;
+} 
+#thirteen .secondfont {
+	padding-top: 8px;
+	font-family: 'Acme', sans-serif;
+	font-weight: bolder;
+	font-size: 0.9em;
+	color: white;
+	overflow: hidden;
+}
+@media only screen and (min-width : 600px) {
+#thirteen .rec{
+	width: 500px;
+	height: 500px;
+	background-color: orangered;
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#thirteen .circle{
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+	background: orangered; 
 	width: 350px; 
 	height: 350px; 
 	border-radius: 175px; 
@@ -1834,6 +1873,178 @@ font-family: 'Inconsolata', monospace;
 	color: white;
 	overflow: hidden;
 }
+
+}
+
+
+/*--------Day 14 starts here---------*/
+#fourteen .content {
+	background-image: url("../images/cloudy.jpg");
+	background-size: 120%;
+	padding: 5rem 0 8rem 0;
+	overflow: hidden;
+	position: relative;
+}
+#fourteen .day {
+	position: relative;
+	z-index: 2;
+	color: white;
+	border: 2px solid white;
+	margin-bottom: 20px;
+}
+#fourteen .content:before { 
+  content: '';
+  position: absolute;
+  left: -100%;
+  width: 200%; 
+  height: 140%; 
+/*  background-color: #34EEFF;*/
+ /* background-color: rgb(52, 38, 255); /* fallback */
+background-color: rgba(52, 238, 255, 0.2);
+  top: -500px;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#fourteen .row{
+	overflow: visible;
+
+}
+#fourteen .legend {
+	margin: -30px 0 -100px 0;
+	color:white;
+}
+#fourteen .firstfont {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
+	color: white;
+	padding-left: 100px;
+	line-height: 2em;
+	letter-spacing: 5px;
+} 
+
+#fourteen span{
+	letter-spacing: 40px;
+}
+#fourteen .floatingletter1{
+	opacity: 0.9;
+	letter-spacing: 30px;
+	-ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Safari */
+    transform: rotate(25deg);
+    padding-left: 175px;
+    margin-top: -62px;
+}
+#fourteen .floatingletter2{
+	opacity: 0.6;
+	letter-spacing: 30px;
+	-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Safari */
+    transform: rotate(40deg);
+    padding-left: 185px;
+    margin-top: -62px;
+}
+#fourteen .floatingletter3{
+	opacity: 0.3;
+	letter-spacing: 30px;
+	-ms-transform: rotate(170deg); /* IE 9 */
+    -webkit-transform: rotate(170deg); /* Safari */
+    transform: rotate(170deg);
+    margin-left: -10px;
+    margin-top: 15px;
+}
+#fourteen .floatingletter4{
+	opacity: 0.1;
+	letter-spacing: 30px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    margin-left: -10px;
+    margin-top: 16px;
+}
+@media only screen and (min-width : 600px) {
+#fourteen .content {
+	background-image: url("../images/cloudy.jpg");
+	background-size: 100%;
+	padding: 5rem 0 8rem 0;
+	overflow: hidden;
+	position: relative;
+}
+#fourteen .day {
+	position: relative;
+	z-index: 2;
+	color: white;
+	border: 2px solid white;
+	margin-bottom: 20px;
+}
+#fourteen .content:before { 
+  content: '';
+  position: absolute;
+  left: 10%;
+  width: 200%; 
+  height: 140%; 
+/*  background-color: #34EEFF;*/
+ /* background-color: rgb(52, 38, 255); /* fallback */
+background-color: rgba(52, 238, 255, 0.2);
+  top: -500px;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#fourteen .firstfont {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 2.8em;
+	color: white;
+	padding-left: 100px;
+	line-height: 2em;
+	letter-spacing: 20px;
+} 
+#fourteen .floatingletter1{
+	opacity: 0.1;
+	letter-spacing: 30px;
+	-ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Safari */
+    transform: rotate(25deg);
+    padding-left: 270px;
+    margin-top: -60px;
+}
+#fourteen .floatingletter2{
+	opacity: 0.3;
+	letter-spacing: 30px;
+	-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Safari */
+    transform: rotate(40deg);
+    padding-left: 260px;
+    margin-top: 10px;
+}
+#fourteen .floatingletter3{
+	opacity: 0.6;
+	letter-spacing: 30px;
+	-ms-transform: rotate(170deg); /* IE 9 */
+    -webkit-transform: rotate(170deg); /* Safari */
+    transform: rotate(170deg);
+    padding-left: 340px;
+    margin-top: 10px;
+}
+#fourteen .floatingletter4{
+	opacity: 0.9;
+	letter-spacing: 30px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    padding-left: 340px;
+    margin-top: 60px;
+}
+#fourteen .legend {
+	margin: -10px 0 0 0;
+	color:white;
+}
+
+}
+
+
 
 
 
