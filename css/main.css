@@ -2187,7 +2187,119 @@ background-color: rgba(52, 238, 255, 0.2);
 }
 
 }
+/*--------Day 16 starts here---------*/
+#sixteen .content {
+	background-color: #F4FF57;
+	padding: 5rem 0 12rem 0;
+	position: relative;
+}
+#sixteen .day {
+	position: relative;
+	color: black;
+	border: 2px solid black;
+}
+#sixteen .row{
+	overflow: visible;
 
+}
+#sixteen .legend {
+	margin: -30px 0 -100px 0;
+	color:white;
+}
+#sixteen .firstfont {
+	font-family: 'Russo One', sans-serif;
+	font-size: 4em;
+	color: black;
+	padding-top: 80px;
+	opacity: 0.7;
+}
+
+#sixteen .legend {
+	margin: -30px 0 -100px 0;
+	color:black;
+}
+
+@media only screen and (min-width : 600px) {
+#sixteen .content {
+	background: #F4FF57 url("../images/skyline.png");
+	background-size: 50% 50%;
+    background-repeat: no-repeat;
+     background-position: 50% 10%; 
+	padding: 5rem 0 5rem 0;
+	position: relative;
+}
+#sixteen .day {
+	position: relative;
+	color: black;
+	border: 2px solid black;
+}
+
+
+#sixteen .firstfont {
+	font-family: 'Russo One', sans-serif;
+	font-size: 14em;
+	color: black;
+	padding-top: 120px;
+	opacity: 0.7;
+}
+
+#sixteen .letter_one {
+	margin-left: 180px;
+	color:#FFA888;
+}
+#sixteen .letter_two {
+	font-size: 20em;
+	color:#97A5FD;
+	font-family: 'Merriweather Sans', sans-serif;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#sixteen .letter_three {
+	color:#FFE0A4;
+	font-size: 10em;
+	margin-left: -175px;
+	margin-top: 57px;
+	font-weight: bolder;
+}
+#sixteen .letter_four {
+	color:#BFFF88;
+	font-size: 15em;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    margin-left: -40px;
+	margin-top: 80px;
+}
+#sixteen .letter_five {
+	color:#88FFE0;
+	font-size: 12em;
+	margin-left: -55px;
+	margin-top: 30px;
+}
+#sixteen .letter_six {
+	color:#FFCEDD;
+	font-size: 15em;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    margin-left: -40px;
+    margin-top: 94px;
+}
+#sixteen .letter_seven {
+	color:#FFA888;
+	font-size: 8em;
+	margin-left: -90px;
+    margin-top: 88px;
+}
+#sixteen .legend {
+	margin: -30px 0 0px 0;
+	color:black;
+}
+
+}
 
 
 
